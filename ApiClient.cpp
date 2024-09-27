@@ -1,4 +1,4 @@
-#include "ApiClient.h";
+#include "ApiClient.h"
 
 json::value createErrorResponse(const http_exception& exception) {
 	json::value error_response;
